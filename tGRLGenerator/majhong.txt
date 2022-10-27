@@ -1,0 +1,19 @@
+Actor: player; Goal: modify name
+Actor: player; Goal: modify icon
+Actor: player; Goal: enter name
+Actor: administrator; Goal: get log information
+Actor: administrator; Goal: change game settings
+Actor: MultiMahjongServer; Goal: save preferences to file(resource)
+Actor: MultiMahjongServer; Goal: read file
+Actor: player; Goal: create game; Subgoal: create multiplayer game, create single player game; DecompositionType: OR
+Actor: player; Goal: create multiplayer game; Subgoal: enter name, choose icon, decide number of human and computer opponents, set score limit, begin game; DecompositionType: AND
+Actor: player; Goal: join game
+Actor: MultiMahjongClient; Goal: limit user to choose 4 players
+Actor: MultiMahjongClient; Goal: send game initialization information
+Actor: MultiMahjongClient; Goal: process 3 COs
+Actor: player; Goal: create single player game; Subgoal: enter name, choose icon, decide to join game, set limit for winning; DecompositionType: AND
+Actor: MultiMahjongClient; Goal: retrieve data; Subgoal: retrieve score limit, player names, icons, seating positions, title of players; DecompositionType: AND
+Actor: MultiMahjongClient; Goal: save user preferences in file
+Actor: player; Goal: change level of CO 
+Actor: player; Softgoal: Authentication; AssociatedGoal: modify name
+

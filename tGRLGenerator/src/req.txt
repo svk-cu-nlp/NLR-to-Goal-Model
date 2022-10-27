@@ -1,0 +1,2 @@
+Actor: User; Goal: Filter Searched Products; subgoal: Filter by category, Filter by price, Filter by color; DecompositionType: OR
+Actor: User; Goal: Make payment; Subgoal: Payment through Net Banking, Payment through Credit card; DecompositionType: OR

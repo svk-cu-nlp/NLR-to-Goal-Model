@@ -1,0 +1,96 @@
+tgrl { 
+ actor player{
+   goal modify name { 
+     decompositionType: 
+     subgoal
+  }
+   goal modify icon { 
+     decompositionType: 
+     subgoal
+  }
+   goal enter name { 
+     decompositionType: 
+     subgoal
+  }
+   goal get log information { 
+     decompositionType: 
+     subgoal
+  }
+   goal change game settings { 
+     decompositionType: 
+     subgoal
+  }
+   goal save preferences to file(resource) { 
+     decompositionType: 
+     subgoal
+  }
+   goal read file { 
+     decompositionType: 
+     subgoal
+  }
+   goal create game { 
+     decompositionType: OR
+     subgoal: create multiplayer game, create single player game
+  }
+   goal create multiplayer game { 
+     decompositionType: AND
+     subgoal: enter name, choose icon, decide number of human and computer opponents, set score limit, begin game
+  }
+   goal join game { 
+     decompositionType: 
+     subgoal
+  }
+   goal limit user to choose 4 players { 
+     decompositionType: 
+     subgoal
+  }
+   goal send game initialization information { 
+     decompositionType: 
+     subgoal
+  }
+   goal process 3 COs { 
+     decompositionType: 
+     subgoal
+  }
+   goal create single player game { 
+     decompositionType: AND
+     subgoal: enter name, choose icon, decide to join game, set limit for winning
+  }
+   goal retrieve data { 
+     decompositionType: AND
+     subgoal: retrieve score limit, player names, icons, seating positions, title of players
+  }
+   goal save user preferences in file { 
+     decompositionType: 
+     subgoal
+  }
+   goal change level of CO { 
+     decompositionType: 
+     subgoal
+  }
+   goal  { 
+     decompositionType: 
+     subgoal
+  }
+   goal  { 
+     decompositionType: 
+     subgoal
+  }
+ goal create multiplayer game
+ goal create single player game
+ goal enter name
+ goal choose icon
+ goal decide number of human and computer opponents
+ goal set score limit
+ goal begin game
+ goal enter name
+ goal choose icon
+ goal decide to join game
+ goal set limit for winning
+ goal retrieve score limit
+ goal player names
+ goal icons
+ goal seating positions
+ goal title of players
+ }
+}
