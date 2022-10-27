@@ -1,0 +1,149 @@
+The product shall free of computer viruses.
+ The system shall prevent malicious attacks including denial of service.
+ The product must comply with Sarbanes-Oxley.
+ The product shall comply with the estimatics laws relating to recycled parts usage.
+ The product shall comply with insurance regulations regarding claims processing.
+  The user shall search for the preferred repair facility using vehicle data vehicle location  and radius in miles
+  The vehicle data shall include vehicle year  make  and model
+  The vehicle location shall include street address  city  state  and zipcode
+  The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.
+ The search radius shall be between   and    miles
+ The system shall locate the preferred repair facility with the highest ratings for the input criteria
+ The adjuster shall enter the preferred repair facility on the estimate assignment.
+ The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.
+ The preferred repair facility shall be returned to the user.
+ The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.
+ The estimator shall search for available recycled parts using damaged vehicle parts information.
+ The estimator shall search for available recycled parts using a list of preferred parts suppliers.
+ The system shall search for available recycled parts for the supplied vehicle parts and suppliers.
+ The estimator shall search by zipcode with a radius of    miles if no parts are found for the preferred parts suppliers
+ The system shall retain the available recycled parts and suppliers returned from the search.
+ The available recycled parts information and their suppliers shall be returned to the user.
+ The estimator shall apply selected recycled parts to the collision estimate.
+ The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.
+ The adjuster shall review the collision estimate.
+ The adjuster shall request a recycled parts audit of the collision estimate.
+ The recycled parts search results provided to the estimator shall be retrieved by the system.
+ The system shall generate an audit report based on the available recycled parts and the collision estimate.
+ The audit report shall include the total number of recycled parts used in the estimate.
+ The audit report shall include the number of available recycled parts from the original search results.
+  The audit report shall include the percentage of available recycled parts used in the estimate 
+ The audit report shall include the total score of the audit which sums the indivual line items.
+ The audit report shall be displayed to the user.
+ The audit report shall be available to other adjusters at later points in time.
+ The user shall select to view the preferred repair facility ratings.
+ The current repair facility ratings shall be displayed to the user.
+ The system will display a blank set of ratings if there are not ratings yet defined.
+ The user shall enter new ratings based on the audit report
+ The ratings shall be from a scale of  -  
+ The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts
+ The user shall select to save the preferred repair facility ratings.
+ The preferred repair facility ratings shall be saved by the system.
+  The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.
+ The product will function alongside server software on any operating system where the Java runtime can be installed.
+ The product will require collaboration with a database management system (DBMS).  The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.
+  The product must make use of web/application server technology.  Open source examples include Apache web server  Tomcat  and the JBoss application server.
+  A database management system such as Oracle  DB   MySql or HSQL will need to be integrated with the product.
+  The products Look and Feel shall be able to incorporate aspects of the customers organization such as logo  branding  and identity
+ The product shall have a conservative and professional appearance.
+ The product shall make the users want to use it.     of the users surveyed report they are regularly using the product after the first   weeks post-launch.
+ The product shall be easy to use.    of users will be able to successfully reserve a conference room within   minutes of product use.
+ The product shall give users feedback when necessary.     of the users surveyed report that the product accurately confirms their actions.
+ The product shall allow the user to select a chosen language from one of the target market countries.
+ The product shall allow for customization of start page and views preferences.
+  An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than    minutes  users shall be able to successfully setup meetings and reserve conference rooms.
+ The product shall use a standard navigation menu familiar to most web users.
+ The product shall allow for intuitive searching of available conference rooms.
+ The product shall conform to the Americans with Disabilities Act.
+ The response shall be fast enough to avoid interrupting the users flow of thought.     of tasks shall complete within   seconds.      of tasks shall complete within   seconds.
+  Aside from server failure  the software product shall achieve   .    up time.
+FT:The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.
+  The product shall be capable of handling up to       concurrent requests.  This number will increase to       by Release  .  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.
+  The product shall be able to process        transactions per hour within two years of its launch.  This number will increase to        by Release  .
+ The product shall be expected to operate for at least   years for each customer installation.
+ The product shall be used in office environments.
+ The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in     of all HTML browsers tested (minimum is to test   browsers).
+ The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on      of all transactions.
+ The product must be able to interface with various email servers. The product shall be able to send email.
+ The product shall be available for distribution via the Internet as a binary or ZIP file.
+ The product shall be available for distribution as a packaged CD.
+  The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.
+ A new user must be able to be added to the system within    minutes.     of new users are able to log into the system within    minutes.
+ The product must be designed using Design Patterns and coding best practices.     of maintenance software developers are able to integrate new functionality into the product with   working days.
+ The product must be highly configurable for use with various database management systems for the end users.      of end users are able to integrate new database management systems with the product without changing the products software code.
+ Maintenance releases will be offered to customers once a year.  The releases shall take no longer than   minutes for     of the customer base to install.
+ Every registered user will have access to the products support site via the Internet.      of registered users shall find a solution to their problem within   minutes of using the support site.
+ The customer shall be able to easily integrate new building maps with the product throughout the products lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.
+  The product shall be translated into foreign languages other than the target market countries languages in future releases.  For each emerging target market  it shall take no more than   days to configure the product for that markets language.
+  The product is expected to integrate with multiple database management systems.  The product will operate with Oracle  SQL Server  DB   MySQL  HSQL  and MS Access.
+ The product shall be able to be installed in any operating environment within   days.
+ The product shall ensure that only company employees or external users with company-approved user IDs may have product access.       of all logons shall be by either company employees or external users with company-approved user IDs.
+ Only managers are able to perform search queries for reservations by user.       of all search queries for reservations by user shall be from logons of only management logons.
+ The product shall ensure that the databases data corresponds to the data entered by the user.  Each conference room reservation in the system will contain the same information as was entered by the user.
+ The product shall prevent the input of malicious data.  The product and/or adjacent hardware/software systems data shall remain      uncorrupted each time malicious data is input into the product.
+FT:The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data.  The product and/or dependent databases/filesystems shall not crash      of the time that malicious data is input into the product.
+ The product shall have the ability to receive automatic software updates as new threats emerge.       of customers will be able to receive automatic software updates transmitted to the installed product.
+ The language of the product shall accommodate all of the target market countries.    of survey respondents from each target market country will find that the language of the product is acceptable.
+ The product shall be able to display calendar dates and times according to the users locale.     of survey respondents from each target market country will find that the date and time formatting of the product is correct.
+ The product must be developed with the J SE/J EE programming language libraries
+ The product shall record meeting entries.
+ The product will notify employees of meeting invitations.
+ The product shall have the ability to send meeting reminders to employees.
+ The product shall assign the organizers contact information to each meeting they create.
+ The product will record meeting acknowledgements.
+ The product shall store new conference rooms.
+ The product shall update existing conference rooms.
+ The product will be able to delete conference rooms.
+ The product shall be able to store new room equipment.
+ The product will update existing room equipment.
+ The product shall be able to delete room equipment.
+ The product shall allow an organizer to invite other employees to meetings.
+  Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.
+ The product shall record the transportation status of equipment reserved.
+ The product shall display a map of the company building showing conference room locations.
+ The product shall record updated meeting agendas.
+ The product shall send a meeting confirmation to the meeting organizer.
+ The product shall display room equipment according to search parameters.
+ The product shall display conference rooms according to search parameters.
+ The product shall record different meeting types.
+ The product shall record all the equipment that has been reserved.
+ The product shall notify building personnel of equipment transport requests.
+ The product will allow priviledged users to view meeting schedules in multiple reporting views.
+ The product shall be able to send meeting notifications via different kinds of end-user specified methods.
+ The product shall have a customizable Look and Feel.
+ The product shall have an intuitive user interface.
+ The product will display an available status for unreserved conference rooms.
+ Recreation of Inventory Quantity Adjustment for the period of previous    days shall take no more than   min.
+ The System shall allow for a minimum of    users to work at the same time.
+ The System shall utilize currently owned computer equipment.
+ The System shall be able to automatically backup business data and restore them on demand.
+ The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.
+ The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.
+ The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.
+ The System shall not require additional third party licenses resulting in royalty fees.
+ The System shall allow generation of Inventory Quantity Adjustment documents on demand.
+ The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.
+ The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.
+  The System shall allow entering  storing and modifying product formulas.
+  Product formulas shall allow use of semi-products  which have own formulas.
+ Product formula ingredients shall allow defining substitutionary ingredients.
+ Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.
+ Formula substitutionary ingredients shall be kept in persisted order
+  Product shall allow entering  storing and modifying product menus used by POS terminals.
+ PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.
+ PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.
+ PME Subsystem shall allow for a product to exist in more than one submenu
+ The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.
+ The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.
+ The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.
+ Administrator shall be able to activate a pre-paid card via the Administration section in under   seconds.
+  Customer shall be able to check the status of their prepaid card  by entering in the PIN number  in under   seconds.
+ System shall let customers register on the website as a pay as you go user in under   minutes.
+ System shall let customers register on the website as a unlimited movie subscriber user in under    minutes.
+ System shall let existing customers log into the website with their email address and password in under   seconds.
+  System shall let customers cancel their account  process shall take no longer than   minutes.  Database will mark the account as inactive  and user will not be able to log into the website.
+ System shall let administrator de-activate a customer account in under   minute. Customer will no longer be able to access the website.
+ System shall let administrator add/remove movies on the website in under   minutes.  Entered movie information will be stored in the database and will now be available on the website.
+ System shall let the administrator add/remove categories on the website in under   minutes.
+ System shall let Izogn Manager access sales and usage statistics in under   minutes.
+ System shall let administrators generate unique pre-paid pins in under   minutes and generate an Excel file with the generated PINs.
