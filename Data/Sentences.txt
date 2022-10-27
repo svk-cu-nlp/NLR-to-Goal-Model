@@ -1,0 +1,19 @@
+The system shall refresh the display every 60 seconds.
+The application shall match the color of the schema set forth by Department of Homeland Security
+If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30
+The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.
+If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100
+The product shall ensure that it can only be accessed by authorized users.
+The product will be able to distinguish between authorized and unauthorized users in all access attempts
+The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.
+The product shall respond fast to keep up-to-date data in the display.
+The system shall have a MDI form that allows for the viewing of the graph and the data table.
+The system shall display Events in a vertical table by time.
+The system shall display the Events in a graph by time.
+All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.
+The Disputes application must maintain a detailed history of every action that a user takes on a dispute case.
+This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.
+All actions that modify an existing dispute case must be recorded in the case history.
+The Disputes System must be accessible by both internal and external users.
+The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.
+The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.
